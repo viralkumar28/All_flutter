@@ -8,8 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(),
+    return MaterialApp(
+      home: Container(
+        child: Column(
+          children: [Text("Data"),Text("data")],
+        ),
+      ),
     );
   }
 }
