@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Container(
         child: Column(
-          children: [Text("Data"),Text("data")],
+          children: [Text("next Time guys"),Text("new flutter object")],
         ),
       ),
     );
