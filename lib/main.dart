@@ -11,11 +11,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "New App Day 1",
       home: Scaffold(
+        backgroundColor: Colors.amberAccent,
+
         appBar: AppBar(
+          backgroundColor: Colors.deepOrangeAccent,
+          // leading: Icon(Icons.home),
+
           title: Text('Day 1'),
 
         ),
         body: const Center(
+
           child: Text(
             "Hello World"
           ),
