@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
 
         appBar: AppBar(
           backgroundColor: Colors.deepOrangeAccent,
-          // leading: Icon(Icons.home),
+          leading: Icon(Icons.home),
 
           title: Text('Day 1'),
 
