@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "New App Day 1",
+      title: "New App Day 2",
       home: Scaffold(
         backgroundColor: Colors.amberAccent,
 
@@ -17,11 +17,10 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.deepOrangeAccent,
           leading: Icon(Icons.home),
 
-          title: Text('Day 1'),
+          title: Text('Day 2'),
 
         ),
         body: const Center(
-
           child: Text(
             "Hello World"
           ),
