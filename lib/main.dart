@@ -1,31 +1,24 @@
 import 'package:flutter/material.dart';
 
 void main(){
-runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "New App Day 2",
-      home: Scaffold(
-        backgroundColor: Colors.amberAccent,
-
-        appBar: AppBar(
-          backgroundColor: Colors.deepOrangeAccent,
-          leading: Icon(Icons.home),
-
-          title: Text('Day 2'),
-
+  runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('App Bar'),
+        backgroundColor: Colors.blueGrey,
+        centerTitle: true,
+      ),
+      body: Center(
+        child: Text('this is just for practice'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        child: Icon(
+          Icons.icecream
         ),
-        body: const Center(
-          child: Text(
-            "Hello World"
-          ),
         ),
       ),
-    );
-  }
+    )
+  );
 }
+
